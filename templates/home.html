@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!--div class="jumbotron">
+    <h1 class="display-4">Encriptacion</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+        featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+</div-->
+<div class="jumbotron">
+    <h1 class="display-4">Encriptaciones</h1>
+    <form>
+        <br>
+        <h3 class="display-6">Simetrica</h3>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Texto Desencriptado / Encriptado</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group row">
+            <label for="staticEmail" class="col-sm-5 col-form-label">Texto Encriptado / Desencriptado </label>
+            <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Encriptar</button>
+        <button type="submit" class="btn btn-primary">Desencriptar</button>
+    </form>
+    <form>
+        <br>
+        <h3 class="display-6">Asimetrica</h3>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Texto Desencriptado / Encriptado</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group row">
+            <label for="staticEmail" class="col-sm-5 col-form-label">Texto Encriptado / Desencriptado </label>
+            <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Encriptar</button>
+        <button type="submit" class="btn btn-primary">Desencriptar</button>
+    </form>
+    <form>
+        <br>
+        <h3 class="display-6">HASH</h3>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Texto Desencriptado / Encriptado</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group row">
+            <label for="staticEmail" class="col-sm-5 col-form-label">Texto Encriptado / Desencriptado </label>
+            <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Encriptar</button>
+        <button type="submit" class="btn btn-primary">Desencriptar</button>
+    </form>
+
+</div>
+
+
+
+{% endblock %}
